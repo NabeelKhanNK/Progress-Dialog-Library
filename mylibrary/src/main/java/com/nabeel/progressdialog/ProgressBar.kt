@@ -12,6 +12,7 @@ class ProgressBar {
         progressDialog.show()
         progressDialog.setContentView(R.layout.show_dialog)
         progressDialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+        progressDialog.setCancelable(false)
     }
 
     fun hideDialog(){
